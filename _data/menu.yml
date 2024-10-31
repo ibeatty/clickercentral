@@ -9,10 +9,9 @@
 
 - label: "Home"
   link: ""
-- label: "About us"
+- label: "About A2L"
   link: "about"
-  submenu:
-    - label: "Our team"
-      link: "about#our-team"
-- label: "Contact us"
-  link: "contact"
+- label: "Using A2L Items"
+  link: "using"
+- label: "A2L Items Library"
+  link: "library"
