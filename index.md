@@ -1,6 +1,6 @@
 ---
-title: Home
-description: ""
+title: ClickerCentral
+description: "Formative assessment questions for teaching physics"
 style: home
 ---
 
