@@ -1,0 +1,22 @@
+{% capture second-element-as-excerpt %}
+{% comment %}Jekyll's post.excerpt takes the first block element
+on the page, which is often a heading. We want the
+first paragraph, after a heading. So this include
+creates an excerpt from the second element on the page,
+as best it can. YMMV.{% endcomment %}
+
+{% assign content-to-exerpt = page.content %}
+{% if include.content %}
+	{% assign content-to-excerpt = include.content %}
+{% endif %}
+
+{% comment %} Expand site.baseurl Liquid tags {% endcomment %}
+{% capture excerpt-site-baseurl %}{{ site.baseurl }}{% endcapture %}
+{% assign content-to-excerpt = content-to-excerpt | replace: '{{ site.baseurl }}', excerpt-site-baseurl %}
+
+{% comment %} Filter the content and append ellipsis {% endcomment %}
+{{ content-to-excerpt | split: "
+
+" | shift | first | strip_html | append: " …"}}
+
+{% endcapture %}{{ second-element-as-excerpt | strip_newlines }}
