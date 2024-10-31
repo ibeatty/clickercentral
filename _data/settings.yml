@@ -3,13 +3,13 @@
 # {{ site.data.settings.name }}
 
 # The main name of your site
-name: "Jekyll Starter"
+name: "ClickerCentral"
 
 # A tagline for your site, often shown with the name
-tagline: "Get up and running quickly"
+tagline: "Formative assessment questions for teaching physics"
 
 # A description of your site, e.g. for social-media snippets
-description: "This is a website for our team."
+description: "An archive of Assessing-to-Learn (A2L) formative assessment questions from the UMass Physics Education Research Group (UMPERG)"
 
 # The main language of your site. Use the IANA language subtag.
 # See https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
@@ -23,10 +23,10 @@ image: "avatar.png"
 logo: "logo.png"
 
 # The final, canonical address of your live site
-url: "http://example.com"
+url: "http://ibeatty.github.io/clickercentral"
 
 # Your Google Analytics ID, if you're using Google Analytics
-google-analytics-id: "UA-00000000-0"
+# google-analytics-id: "UA-00000000-0"
 
 # Your email address, e.g. for the contact form to use
-email: "info@example.com"
+email: "idbeatty@uncg.edu"
