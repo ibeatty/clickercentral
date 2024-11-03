@@ -6,6 +6,11 @@
 # in a subfolder, leave this empty.
 baseurl: /clickercentral
 
+# Set a theme
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme
+
 # Set pretty permalinks, not Jekyll default 'date'
 permalink: pretty
 
