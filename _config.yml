@@ -39,3 +39,8 @@ defaults:
     values:
       layout: "default"
       excerpt: ""
+
+# Define collections:
+collections:
+  items:
+    output: true

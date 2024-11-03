@@ -6,7 +6,7 @@ style: home
 
 # A2L Project Questions Archive
 
-> This project hasn’t been funded in about two decades, and the UMass Physics Education Research Group has since disbanded. As a public service, Ian Beatty is maintaining this database at personal expense. Inexorable infrastructure upgrades by the hosting company eventually broke the site, so in June 2020 he rapidly ported it over to WordPress. The cost of maintaining that hosting account eventually became prohibitive, so in Fall 2024 he converted to a static website. The result is a more robust, sustainable, and distributable archive, but without search or other dynamic functionality.
+> _This project hasn’t been funded in about two decades, and the UMass Physics Education Research Group has since disbanded. As a public service, Ian Beatty is maintaining this database at personal expense. Inexorable infrastructure upgrades by the hosting company eventually broke the site, so in June 2020 he rapidly ported it over to WordPress. The cost of maintaining that hosting account eventually became prohibitive, so in Fall 2024 he converted to a static website. The result is a more robust, sustainable, and distributable archive, but without search or other dynamic functionality._
 
 _Assessing-to-Learn_ (A2L) was a four-year research project on the use of “continuous formative assessment” in the high-school physics classroom, funded by the U.S. National Science Foundation (grant IMD-9730438). The UMass Physics Education Research Group (UMPERG) had been developing a set of research-based pedagogic practices at the university level for many years, and A2L studied how these practices can be employed for high school physics instruction.
 
