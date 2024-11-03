@@ -40,8 +40,8 @@ for useful inspiration for detecting prev and next.{% endcomment %}
 
 {% assign firsturl = first.url %}
 {% assign lasturl = last.url %}
-{% assign firsttitle = first.title %}
-{% assign lasttitle = last.title %}
+{% assign firsttitle = first.name %}
+{% assign lasttitle = last.name %}
 
 {% comment %}Check for page links, which override automatic ones{% endcomment %}
 {% if page.previous-page or page.next-page or page.parent-page %}
