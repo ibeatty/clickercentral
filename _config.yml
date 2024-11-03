@@ -45,4 +45,4 @@ collections:
   items:
     output: true
     layout: item
-    permalink: /:name
+    permalink: /:title
