@@ -142,7 +142,7 @@ en:
   excerpt:
     more: "More"
   footer:
-    credit: ""
+    credit: "The A2L project was funded primarily by National Science Foundation grant ESI-9730438. Any opinions, findings, conclusions, and recommendations expressed here or in other project publications are those of the principal investigators and do not necessarily reflect the views of the NSF."
   input:
     send: "Send"
     submit: "Submit"

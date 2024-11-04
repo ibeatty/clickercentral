@@ -9,6 +9,7 @@
 ## Design & Aesthetics
 - Figure out why Jekyll isn't using the specified (external) theme.
 - Improve spacing & aesthetics of library list.
+- Add footer with NSF acknowledgement & disclosure.
 
 
 ## Content
