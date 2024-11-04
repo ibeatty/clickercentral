@@ -44,11 +44,17 @@ defaults:
     values:
       layout: "default"
       excerpt: ""
+  -
+    scope:
+      path: ""
+      type: "items"
+    values:
+      layout: "item"
 
 # Define collections:
 collections:
   items:
     output: true
-    layout: "item"
+    layout: item
     permalink: /:title/
 
