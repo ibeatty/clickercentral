@@ -55,6 +55,4 @@ defaults:
 collections:
   items:
     output: true
-    layout: item
     permalink: /:title/
-
