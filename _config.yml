@@ -7,9 +7,9 @@
 baseurl: /clickercentral
 
 # Set a theme — NOT WORKING YET
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: pages-themes/architect
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 
 # Set pretty permalinks, not Jekyll default 'date'
 permalink: pretty

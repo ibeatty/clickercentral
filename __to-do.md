@@ -8,8 +8,9 @@
 
 ## Design & Aesthetics
 - Figure out why Jekyll isn't using the specified (external) theme.
+- Improve spacing & aesthetics of library list.
 
 
 ## Content
-- Add metadata (esp. Description) to later items that don't have it.
+- Add metadata (esp. Description) to items 264-305.
 - Proof and copy-edit all items.
