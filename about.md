@@ -26,6 +26,6 @@ The rapid feedback possible with a classroom response system, together with the 
 
 ### For More Information
 
-For more details about employing A2L items effectively, see [Using Items](about.md).
+For more details about employing A2L items effectively, see [Using A2L Items](using.md).
 
 Feel free to [contact us](mailto:idbeatty@uncg.edu) if we can be of assistance. To read more about classroom communication systems (lke _Classtalk_ and eInstructon _PRS_), ~~see our web pages on the subject~~ Google them. (The informative pages we had, back when this project was live or recent, are long gone.)
