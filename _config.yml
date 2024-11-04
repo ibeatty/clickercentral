@@ -51,3 +51,4 @@ collections:
     output: true
     layout: "item"
     permalink: /:title/
+
