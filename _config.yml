@@ -7,8 +7,8 @@
 baseurl: /clickercentral
 
 # Set a theme — NOT WORKING YET
-theme: pages-themes/architect
-# remote_theme: pages-themes/architect
+# theme: pages-themes/architect
+remote_theme: pages-themes/architect
 # plugins:
 #  - jekyll-remote-theme
 
