@@ -42,4 +42,4 @@ collections:
     permalink: /:title/
   tags:
     output: true
-    permalink: /:title
+    permalink: /library/:title
