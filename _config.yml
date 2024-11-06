@@ -28,9 +28,18 @@ defaults:
       type: "items"
     values:
       layout: "item"
+  -
+    scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag"
 
 # Define collections:
 collections:
   items:
     output: true
     permalink: /:title/
+  tags:
+    output: true
+    permalink: /:title

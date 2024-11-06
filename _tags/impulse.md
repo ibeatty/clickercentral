@@ -1,0 +1,4 @@
+---
+tag: impulse
+name: Impulse
+---

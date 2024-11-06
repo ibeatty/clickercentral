@@ -1,5 +1,10 @@
 # ClickerCentral Site To-Do List
 
+## Hosting
+
+* Modify DNS w/Dreamhost to point https://clickercentral.net to the GitHub Pages site, and redirect clickercentral.org to https://clickercentral.net.
+
+
 ## Functionality
 
 * A few items have a "Related Items" section at the bottom of the teacher commentary, containing nothing other than "002" or etc. Make these more informative and linked.
@@ -19,4 +24,5 @@
 
 * Add metadata (esp. Description) to items 264-305.
 * Proof and copy-edit all items.
+
 ___

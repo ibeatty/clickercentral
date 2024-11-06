@@ -1,0 +1,4 @@
+---
+tag: power
+name: Power
+---
