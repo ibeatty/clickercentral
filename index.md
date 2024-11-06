@@ -1,5 +1,6 @@
 ---
 layout: default
+title: ClickerCentral
 ---
 
 # A2L Project Questions Archive
