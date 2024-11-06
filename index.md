@@ -1,19 +1,123 @@
 ---
-title: ClickerCentral
-description: "Formative assessment questions for teaching physics"
-style: home
+layout: default
 ---
 
-# A2L Project Questions Archive
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-_Dev: 001_
+[Link to another page](./another-page.html).
 
-> _This project hasn’t been funded in about two decades, and the UMass Physics Education Research Group has since disbanded. As a public service, Ian Beatty is maintaining this database at personal expense. Inexorable infrastructure upgrades by the hosting company eventually broke the site, so in June 2020 he rapidly ported it over to WordPress. The cost of maintaining that hosting account eventually became prohibitive, so in Fall 2024 he converted to a static website. The result is a more robust, sustainable, and distributable archive, but without search or other dynamic functionality._
+There should be whitespace between paragraphs.
 
-_Assessing-to-Learn_ (A2L) was a four-year research project on the use of “continuous formative assessment” in the high-school physics classroom, funded by the U.S. National Science Foundation (grant IMD-9730438). The UMass Physics Education Research Group (UMPERG, disbanded in 2009) — had been developing a set of research-based pedagogic practices at the university level for many years, and A2L studied how these practices can be employed for high school physics instruction.
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-This website provides public access to a large library of “items” — questions and problems for instructional classroom use — intended for use with continuous formative assessment. Many of these were carefully developed and tested for high school use as part of the project; others are ones we’ve used in university-level courses. You can find the items in the [A2L Items Library](./library.md). Many have associated “teacher aids”, written to help instructors make effective use of them in the classroom.
+# Header 1
 
-This site also provides some explanation of the pedagogic philosophy behind the approach and the implementation of continuous formative assessment in the classroom. See [About A2L](./about.md) for more.
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-While it is possible to use many of the A2L items as a “quiz” or “ConcepTest” (cf. Eric Mazur, _Peer Instruction: A User’s Manual_), the intent behind the items is very different. They are designed to reveal what students do not know, rather than what they do know. This is the essence of formative assessment. For most effective use, items should be used in a low stakes environment where students are willing to explain their thinking and reasoning. The [Using A2L Items](./using.md) page describes how to do this effectively.
+## Header 2
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+### Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+#### Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
