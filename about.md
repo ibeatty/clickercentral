@@ -10,13 +10,13 @@ The _Assessing-to-Learn_ (A2L) project studied the implementation of _continuous
 
 The term “formative assessment” as used here means assessment for purposes of finding out what students don’t understand, and directing their attention to it. It is contrasted with “summative assessment”, which is intended to measure what students do know and understand, and is typically used to assign grades. Through the use of formative assessments incorporated seamlessly during instruction, both teacher and students will be able to diagnose learning difficulties, identify persistent misconceptions, and address problem-solving deficiencies, thereby allowing the teacher to tailor instruction to meet students’ needs. In short, the A2L project is aimed at designing diagnostic tools to help the teacher teach better and the students learn better.
 
-### Collaborative Learning
+## Collaborative Learning
 
 The formative assessments are designed to encourage students to work collaboratively in small groups, discussing the logic leading to an answer. This allows students to make their reasoning visible to themselves, other students, and the teacher. Through this discussion-heavy approach, students learn to construct, present, and evaluate arguments.
 
 Teachers are also more active because they can use continuous assessment to monitor student thinking and progress, and can continually adapt lessons to meet their students’ needs as they arise. Unlike traditional testing, formative assessment provides an opportunity for students and teacher to work together to develop deep conceptual understanding and problem-solving skills. The end result should be a physics course that is more rigorous than a traditionally-taught course.
 
-### Classroom Response Systems
+## Classroom Response Systems
 
 Part of the A2L project involved studying how technology, specifically classroom response systems, may be utilized to facilitate the administration of formative assessments during the course of instruction. Clearly, any form of assessment that does not provide immediate feedback will not be very useful for a teacher to use as an ongoing diagnostic tool.
 
@@ -24,7 +24,7 @@ Classroom response technology allows a teacher to collect answers from an entire
 
 The rapid feedback possible with a classroom response system, together with the data acquisition, storage, and analysis capabilities of most available systems, makes the use of technology preferred but not essential. Note, however, that it is important for the whole class to know how the entire class responded to any item or activity.
 
-### For More Information
+## For More Information
 
 For more details about employing A2L items effectively, see [Using A2L Items](using.md).
 
