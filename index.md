@@ -4,9 +4,9 @@ description: "Formative assessment questions for teaching physics"
 style: home
 ---
 
-_Dev: 001_
-
 # A2L Project Questions Archive
+
+_Dev: 001_
 
 > _This project hasn’t been funded in about two decades, and the UMass Physics Education Research Group has since disbanded. As a public service, Ian Beatty is maintaining this database at personal expense. Inexorable infrastructure upgrades by the hosting company eventually broke the site, so in June 2020 he rapidly ported it over to WordPress. The cost of maintaining that hosting account eventually became prohibitive, so in Fall 2024 he converted to a static website. The result is a more robust, sustainable, and distributable archive, but without search or other dynamic functionality._
 
