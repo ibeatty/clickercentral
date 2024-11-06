@@ -10,7 +10,7 @@ baseurl: /clickercentral
 theme: pages-themes/architect
 # remote_theme: pages-themes/architect
 # plugins:
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 
 # Set pretty permalinks, not Jekyll default 'date'
 permalink: pretty
