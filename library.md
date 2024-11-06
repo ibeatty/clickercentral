@@ -6,7 +6,7 @@ layout: default
 
 <h2>List items by keyword:</h2>
 
-{% include tag-dropdown.js %}
+<script src="{{ '/assets/js/dropdown.js' | relative_url }}"></script>
 
 <form id="tag-dropdown" onsubmit="navigateToTag(); return false;">
   <select id="tag-select">
