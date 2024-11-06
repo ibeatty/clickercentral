@@ -13,7 +13,6 @@
 
 ## Aesthetics
 
-* Add a footer with the NSF logo and standard acknowledgement/disclaimer.
 
 
 ## Content
