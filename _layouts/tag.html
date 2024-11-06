@@ -12,6 +12,8 @@ layout: default
 {% for item in site.items %}
 {% if item.tags contains page.title %}
     <li class="items_list"><strong><a href="{{ item.url | relative_url }}">{{ item.name }}</a></strong>: {{ item.description }}{% if item.keywords %} (<em>{{ item.keywords }}</em>){% endif %}</li>
+{% else %}
+    <li class="items_list">omitting {{item.name}}</li>
 {% endif %}
 {% endfor %}
 </ul>
