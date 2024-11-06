@@ -14,12 +14,23 @@ nav h3 {
 
 nav ul {
     list-style-type: none; /* Removes bullets */
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    color: #666;  
-  }
+    color: #666;
+    padding: 0;
+    margin: 0;
+    }
 
   nav ul li {
+    position: relative; /* Ensures correct placement of the arrow */
+    padding-left: 20px; /* Adds space for the arrow */
     margin-bottom: 16px; /* Adjust this value for desired spacing */
+  }
+
+  nav ul li::before {
+    content: "→"; /* Custom character for the bullet */
+    position: absolute;
+    left: 0;       /* Positions the arrow on the left */
   }

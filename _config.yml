@@ -4,4 +4,5 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
 github:
+  repository_name: ClickerCentral
   owner_name: Ian Beatty
