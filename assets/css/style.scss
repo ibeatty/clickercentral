@@ -23,24 +23,35 @@ nav ul {
     margin: 0;
     }
 
-  nav ul li {
+nav ul li {
     position: relative; /* Ensures correct placement of the arrow */
     padding-left: 20px; /* Adds space for the arrow */
     margin-bottom: 16px; /* Adjust this value for desired spacing */
-  }
+}
 
-  nav ul li::before {
+nav ul li::before {
     content: "→"; /* Custom character for the bullet */
     position: absolute;
     left: 0;       /* Positions the arrow on the left */
-  }
+}
 
 aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 img.image-right {
-  float: right;
-  margin: 0 0 10px 10px;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+  
+.prev-link, .next-link {
+    font-weight: bold;
+    text-decoration: none;
 }

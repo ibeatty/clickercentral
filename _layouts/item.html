@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<nav class="pagination">
+    {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="prev-link">← Previous: {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next %}
+        <a href="{{ page.next.url }}" class="next-link">Next: {{ page.next.title }} →</a>
+    {% endif %}
+</nav>
+
 <h1>{{ page.name }}</h1>
 
 <ul>
