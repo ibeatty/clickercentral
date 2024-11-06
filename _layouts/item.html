@@ -4,10 +4,10 @@ layout: default
 
 <nav class="pagination">
     {% if page.previous %}
-        <a href="{{ page.previous.url | absolute_url }}" class="prev-link">← {{ page.previous.name }}</a>
+        <a href="{{ page.previous.url | absolute_url }}" class="prev-link">← {{ page.previous.name | split: ' ' | slice: 1, 2 | join: ' ' }}</a>
     {% endif %}
     {% if page.next %}
-        <a href="{{ page.next.url | absolute_url }}" class="next-link">{{ page.next.name }} →</a>
+        <a href="{{ page.next.url | absolute_url }}" class="next-link">{{ page.next.name | split: ' ' | slice: 1, 2 | join: ' ' }} →</a>
     {% endif %}
 </nav>
 
