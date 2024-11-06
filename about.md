@@ -6,7 +6,7 @@ layout: default
 
 The _Assessing-to-Learn_ (A2L) project studied the implementation of _continuous_, _formative_ assessment in high-school physics classes. Fully implementing the A2L approach requires a significant change in classroom culture. On a regular basis, students are actively engaging their minds on questions and tasks, thinking about ideas, communicating with other students, and reflecting on their own ways of thinking. _Collaborative Learning_ activities are an essential component of the methodology, and students’ responses to activities are collected, tabulated, and presented to the class for discussion, preferably using a “classroom response system” (see below). Information gleaned from these results is then used to modify subsequent instruction and activities. The most important aspect of this approach is the de-emphasis of answers in favor of reasoning and explanation of thinking.
 
-### Formative Assessment
+## Formative Assessment
 
 The term “formative assessment” as used here means assessment for purposes of finding out what students don’t understand, and directing their attention to it. It is contrasted with “summative assessment”, which is intended to measure what students do know and understand, and is typically used to assign grades. Through the use of formative assessments incorporated seamlessly during instruction, both teacher and students will be able to diagnose learning difficulties, identify persistent misconceptions, and address problem-solving deficiencies, thereby allowing the teacher to tailor instruction to meet students’ needs. In short, the A2L project is aimed at designing diagnostic tools to help the teacher teach better and the students learn better.
 
