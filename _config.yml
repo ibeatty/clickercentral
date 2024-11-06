@@ -1,3 +1,5 @@
+# -----------------------------------------------------------------------------
+# Stuff for Architect theme
 title: ClickerCentral
 description: Formative assessment questions for teaching physics
 show_downloads: false
@@ -6,3 +8,28 @@ theme: jekyll-theme-architect
 github:
   repository_name: ClickerCentral
   owner_name: Ian Beatty
+
+
+# -----------------------------------------------------------------------------
+# Stuff for Jekyll
+
+# Set default page layout for all pages
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      excerpt: ""
+  -
+    scope:
+      path: ""
+      type: "items"
+    values:
+      layout: "item"
+
+# Define collections:
+collections:
+  items:
+    output: true
+    permalink: /:title/
