@@ -2,10 +2,11 @@
 layout: default
 ---
 
-# A2L Items Library: {{ page.name }}
-
+<h1>A2L Items Library: {{ page.name }}</h1>
 
 {{ content }}
+
+<p>Listing items filtered by tag "{{ page.title }}":</p>
 
 {% for item in site.items %}
 {% if item.tags contains page.title %}
