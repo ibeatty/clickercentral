@@ -34,3 +34,8 @@ nav ul {
     position: absolute;
     left: 0;       /* Positions the arrow on the left */
   }
+
+aside#sidebar p.repo-owner,
+aside#sidebar p.repo-owner a {
+  font-weight: normal;
+}
