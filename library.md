@@ -4,21 +4,11 @@ layout: default
 
 <h1>A2L Items Library</h1>
 
-<p><em>Dev version: 005</em></p>
+<p><em>Dev version: 006 — moved dropdown to an inclusion file</em></p>
 
 <h2>List items by keyword:</h2>
 
-<script src="{{ '/assets/js/tag-dropdown.js' | relative_url }}"></script>
-
-<form id="tag-dropdown" onsubmit="navigateToTag(); return false;">
-  <select id="tag-select">
-    <option value="">-- choose a keyword --</option>
-    {% for tag in site.tags %}
-      <option value="{{ tag.url | absolute_url }}">{{ tag.name }}</option>
-    {% endfor %}
-  </select>
-  <button type="submit">Show</button>
-</form>
+{% include tag-dropdown.html %}
 
 <h2>All items:</h2>
 

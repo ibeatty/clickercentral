@@ -1,0 +1,11 @@
+<script src="{{ '/assets/js/tag-dropdown.js' | relative_url }}"></script>
+
+<form id="tag-dropdown" onsubmit="navigateToTag(); return false;">
+  <select id="tag-select">
+    <option value="">-- choose a keyword --</option>
+    {% for tag in site.tags %}
+      <option value="{{ tag.url | absolute_url }}">{{ tag.name }}</option>
+    {% endfor %}
+  </select>
+  <button type="submit">Show</button>
+</form>
