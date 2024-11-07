@@ -2,9 +2,23 @@
 layout: default
 ---
 
-<h1>A2L Items Library: {{ page.name }}</h1>
+<h1>A2L Items Library</h1>
 
-{{ content }}
+<h2>List items by keyword:</h2>
+
+<script src="{{ '/assets/js/tag-dropdown.js' | relative_url }}"></script>
+
+<form id="tag-dropdown" onsubmit="navigateToTag(); return false;">
+  <select id="tag-select">
+    <option value="">-- choose a keyword --</option>
+    {% for tag in site.tags %}
+      <option value="{{ tag.url | absolute_url }}">{{ tag.name }}</option>
+    {% endfor %}
+  </select>
+  <button type="submit">Show</button>
+</form>
+
+<h2>Items tagged with "{{ page.name }}":</h2>
 
 <ul>
 {% for item in site.items %}

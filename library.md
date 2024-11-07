@@ -4,11 +4,11 @@ layout: default
 
 <h1>A2L Items Library</h1>
 
-<p><em>Dev version: 004</em></p>
+<p><em>Dev version: 005</em></p>
 
 <h2>List items by keyword:</h2>
 
-<script src="{{ 'assets/js/tag-dropdown.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/tag-dropdown.js' | relative_url }}"></script>
 
 <form id="tag-dropdown" onsubmit="navigateToTag(); return false;">
   <select id="tag-select">
