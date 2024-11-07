@@ -3,7 +3,7 @@ layout: default
 tag: "*"
 ---
 
-<p><em>Dev version 008</em></p>
+<p><em>Dev version 008 — factored list out</em></p>
 
 <h1>A2L Items Library</h1>
 
