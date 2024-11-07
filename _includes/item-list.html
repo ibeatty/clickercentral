@@ -1,0 +1,8 @@
+<ul>
+    {% for item in site.items %}
+    {% if page.tag == "*" or item.tags contains page.tag %}
+        <li class="items_list"><strong><a href="{{ item.url | relative_url }}">{{ item.name }}</a></strong>: {{ item.description }}{% if item.keywords %} (<em>{{ item.keywords }}</em>){% endif %}</li>
+    {% endif %}
+    {% endfor %}
+</ul>
+    

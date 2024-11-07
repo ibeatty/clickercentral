@@ -10,10 +10,4 @@ layout: default
 
 <h2>Items tagged with "{{ page.name }}":</h2>
 
-<ul>
-{% for item in site.items %}
-{% if item.tags contains page.tag %}
-    <li class="items_list"><strong><a href="{{ item.url | relative_url }}">{{ item.name }}</a></strong>: {{ item.description }}{% if item.keywords %} (<em>{{ item.keywords }}</em>){% endif %}</li>
-{% endif %}
-{% endfor %}
-</ul>
+{% include item-list.html %}
