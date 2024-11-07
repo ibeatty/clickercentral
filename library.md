@@ -4,8 +4,6 @@ layout: default
 
 <h1>A2L Items Library</h1>
 
-<p><em>Dev version: 006 — moved dropdown to an inclusion file</em></p>
-
 <h2>List items by keyword:</h2>
 
 {% include tag-dropdown.html %}
